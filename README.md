@@ -30,4 +30,4 @@ Then create another instance of terminal by clicking the + sign and then Enter
       > tsc --build tsconfig.json / yarn build  // this will build the entire project and convert the all .ts files into .js 
 
 # Run tests based on tags mentioned in CucumberOpts
-      > protractor dist/protractor.conf.js --baseUrl='https://demo.advanceflow.com' --capabilities.browserName="chrome" 
+      > protractor dist/protractor.conf.js  --capabilities.browserName="chrome" 
